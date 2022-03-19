@@ -1,0 +1,110 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:ital@1&display=swap');
+/*Style --->  index.html
+
+
+*/
+
+body{
+   
+background: linear-gradient(rgb(6, 2, 251),#745252e1,rgb(253, 248, 242))
+
+}
+
+
+*{
+    text-decoration: none;
+    font-family: 'Noto Serif', serif;
+    
+
+}
+
+.center {
+    text-align: start;
+}
+
+#menu{
+display: flex;
+}
+
+#menu ul li a:hover{
+color: rgb(5, 5, 5);
+}
+
+#menu ul li {
+display: inline;
+font-size: 20px;
+font-weight: 600;
+padding: 16px;
+}
+
+#menu ul li a {
+    color: rgb(255, 255, 255);
+  
+
+}
+
+#titulo{
+color: rgb(255, 255, 255);
+text-align: center;
+font-size: 100px;
+
+}
+
+#titulo:hover{
+color: rgb(2, 0, 8);
+cursor: pointer;
+
+
+}
+
+.container{
+    display: flex;
+    flex-flow: row;
+    justify-content: start;
+    text-align: center;
+    padding-left: 30px;
+    color: rgb(255, 255, 255);
+    align-items: center;
+}
+
+
+.container img{
+width: 600px;
+height: auto;
+padding-right: 30px;
+}
+
+.center{
+text-align: start;
+padding-left: 150px;
+color: antiquewhite;
+}
+
+
+.container2 img{
+width: 40px;
+height: 40px;  
+}
+
+.mb-50{
+margin-bottom: 50px;
+
+}
+
+.central{
+text-align: center;
+
+
+
+
+}
+
+
+
+
+
+
+
+/*Style --> Contato.html*/
